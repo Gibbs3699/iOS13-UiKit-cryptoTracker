@@ -1,0 +1,607 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DCB0F2292802EE630015D09A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCB0F2282802EE630015D09A /* AppDelegate.swift */; };
+		DCB0F22B2802EE630015D09A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCB0F22A2802EE630015D09A /* SceneDelegate.swift */; };
+		DCB0F22D2802EE630015D09A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCB0F22C2802EE630015D09A /* ViewController.swift */; };
+		DCB0F2302802EE630015D09A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCB0F22E2802EE630015D09A /* Main.storyboard */; };
+		DCB0F2322802EE650015D09A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCB0F2312802EE650015D09A /* Assets.xcassets */; };
+		DCB0F2352802EE650015D09A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCB0F2332802EE650015D09A /* LaunchScreen.storyboard */; };
+		DCB0F2402802EE650015D09A /* iOS13_UiKit_cryptoTrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCB0F23F2802EE650015D09A /* iOS13_UiKit_cryptoTrackerTests.swift */; };
+		DCB0F24A2802EE650015D09A /* iOS13_UiKit_cryptoTrackerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCB0F2492802EE650015D09A /* iOS13_UiKit_cryptoTrackerUITests.swift */; };
+		DCB0F24C2802EE650015D09A /* iOS13_UiKit_cryptoTrackerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCB0F24B2802EE650015D09A /* iOS13_UiKit_cryptoTrackerUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DCB0F23C2802EE650015D09A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DCB0F21D2802EE630015D09A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DCB0F2242802EE630015D09A;
+			remoteInfo = "iOS13-UiKit-cryptoTracker";
+		};
+		DCB0F2462802EE650015D09A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DCB0F21D2802EE630015D09A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DCB0F2242802EE630015D09A;
+			remoteInfo = "iOS13-UiKit-cryptoTracker";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DCB0F2252802EE630015D09A /* iOS13-UiKit-cryptoTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS13-UiKit-cryptoTracker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCB0F2282802EE630015D09A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DCB0F22A2802EE630015D09A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		DCB0F22C2802EE630015D09A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DCB0F22F2802EE630015D09A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DCB0F2312802EE650015D09A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DCB0F2342802EE650015D09A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DCB0F2362802EE650015D09A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DCB0F23B2802EE650015D09A /* iOS13-UiKit-cryptoTrackerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iOS13-UiKit-cryptoTrackerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCB0F23F2802EE650015D09A /* iOS13_UiKit_cryptoTrackerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS13_UiKit_cryptoTrackerTests.swift; sourceTree = "<group>"; };
+		DCB0F2452802EE650015D09A /* iOS13-UiKit-cryptoTrackerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iOS13-UiKit-cryptoTrackerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCB0F2492802EE650015D09A /* iOS13_UiKit_cryptoTrackerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS13_UiKit_cryptoTrackerUITests.swift; sourceTree = "<group>"; };
+		DCB0F24B2802EE650015D09A /* iOS13_UiKit_cryptoTrackerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS13_UiKit_cryptoTrackerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DCB0F2222802EE630015D09A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCB0F2382802EE650015D09A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCB0F2422802EE650015D09A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DCB0F21C2802EE630015D09A = {
+			isa = PBXGroup;
+			children = (
+				DCB0F2272802EE630015D09A /* iOS13-UiKit-cryptoTracker */,
+				DCB0F23E2802EE650015D09A /* iOS13-UiKit-cryptoTrackerTests */,
+				DCB0F2482802EE650015D09A /* iOS13-UiKit-cryptoTrackerUITests */,
+				DCB0F2262802EE630015D09A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DCB0F2262802EE630015D09A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DCB0F2252802EE630015D09A /* iOS13-UiKit-cryptoTracker.app */,
+				DCB0F23B2802EE650015D09A /* iOS13-UiKit-cryptoTrackerTests.xctest */,
+				DCB0F2452802EE650015D09A /* iOS13-UiKit-cryptoTrackerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DCB0F2272802EE630015D09A /* iOS13-UiKit-cryptoTracker */ = {
+			isa = PBXGroup;
+			children = (
+				DCB0F2282802EE630015D09A /* AppDelegate.swift */,
+				DCB0F22A2802EE630015D09A /* SceneDelegate.swift */,
+				DCB0F22C2802EE630015D09A /* ViewController.swift */,
+				DCB0F22E2802EE630015D09A /* Main.storyboard */,
+				DCB0F2312802EE650015D09A /* Assets.xcassets */,
+				DCB0F2332802EE650015D09A /* LaunchScreen.storyboard */,
+				DCB0F2362802EE650015D09A /* Info.plist */,
+			);
+			path = "iOS13-UiKit-cryptoTracker";
+			sourceTree = "<group>";
+		};
+		DCB0F23E2802EE650015D09A /* iOS13-UiKit-cryptoTrackerTests */ = {
+			isa = PBXGroup;
+			children = (
+				DCB0F23F2802EE650015D09A /* iOS13_UiKit_cryptoTrackerTests.swift */,
+			);
+			path = "iOS13-UiKit-cryptoTrackerTests";
+			sourceTree = "<group>";
+		};
+		DCB0F2482802EE650015D09A /* iOS13-UiKit-cryptoTrackerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DCB0F2492802EE650015D09A /* iOS13_UiKit_cryptoTrackerUITests.swift */,
+				DCB0F24B2802EE650015D09A /* iOS13_UiKit_cryptoTrackerUITestsLaunchTests.swift */,
+			);
+			path = "iOS13-UiKit-cryptoTrackerUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DCB0F2242802EE630015D09A /* iOS13-UiKit-cryptoTracker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DCB0F24F2802EE650015D09A /* Build configuration list for PBXNativeTarget "iOS13-UiKit-cryptoTracker" */;
+			buildPhases = (
+				DCB0F2212802EE630015D09A /* Sources */,
+				DCB0F2222802EE630015D09A /* Frameworks */,
+				DCB0F2232802EE630015D09A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "iOS13-UiKit-cryptoTracker";
+			productName = "iOS13-UiKit-cryptoTracker";
+			productReference = DCB0F2252802EE630015D09A /* iOS13-UiKit-cryptoTracker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DCB0F23A2802EE650015D09A /* iOS13-UiKit-cryptoTrackerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DCB0F2522802EE650015D09A /* Build configuration list for PBXNativeTarget "iOS13-UiKit-cryptoTrackerTests" */;
+			buildPhases = (
+				DCB0F2372802EE650015D09A /* Sources */,
+				DCB0F2382802EE650015D09A /* Frameworks */,
+				DCB0F2392802EE650015D09A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DCB0F23D2802EE650015D09A /* PBXTargetDependency */,
+			);
+			name = "iOS13-UiKit-cryptoTrackerTests";
+			productName = "iOS13-UiKit-cryptoTrackerTests";
+			productReference = DCB0F23B2802EE650015D09A /* iOS13-UiKit-cryptoTrackerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DCB0F2442802EE650015D09A /* iOS13-UiKit-cryptoTrackerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DCB0F2552802EE650015D09A /* Build configuration list for PBXNativeTarget "iOS13-UiKit-cryptoTrackerUITests" */;
+			buildPhases = (
+				DCB0F2412802EE650015D09A /* Sources */,
+				DCB0F2422802EE650015D09A /* Frameworks */,
+				DCB0F2432802EE650015D09A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DCB0F2472802EE650015D09A /* PBXTargetDependency */,
+			);
+			name = "iOS13-UiKit-cryptoTrackerUITests";
+			productName = "iOS13-UiKit-cryptoTrackerUITests";
+			productReference = DCB0F2452802EE650015D09A /* iOS13-UiKit-cryptoTrackerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DCB0F21D2802EE630015D09A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					DCB0F2242802EE630015D09A = {
+						CreatedOnToolsVersion = 13.3;
+					};
+					DCB0F23A2802EE650015D09A = {
+						CreatedOnToolsVersion = 13.3;
+						TestTargetID = DCB0F2242802EE630015D09A;
+					};
+					DCB0F2442802EE650015D09A = {
+						CreatedOnToolsVersion = 13.3;
+						TestTargetID = DCB0F2242802EE630015D09A;
+					};
+				};
+			};
+			buildConfigurationList = DCB0F2202802EE630015D09A /* Build configuration list for PBXProject "iOS13-UiKit-cryptoTracker" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DCB0F21C2802EE630015D09A;
+			productRefGroup = DCB0F2262802EE630015D09A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DCB0F2242802EE630015D09A /* iOS13-UiKit-cryptoTracker */,
+				DCB0F23A2802EE650015D09A /* iOS13-UiKit-cryptoTrackerTests */,
+				DCB0F2442802EE650015D09A /* iOS13-UiKit-cryptoTrackerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DCB0F2232802EE630015D09A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCB0F2352802EE650015D09A /* LaunchScreen.storyboard in Resources */,
+				DCB0F2322802EE650015D09A /* Assets.xcassets in Resources */,
+				DCB0F2302802EE630015D09A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCB0F2392802EE650015D09A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCB0F2432802EE650015D09A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DCB0F2212802EE630015D09A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCB0F22D2802EE630015D09A /* ViewController.swift in Sources */,
+				DCB0F2292802EE630015D09A /* AppDelegate.swift in Sources */,
+				DCB0F22B2802EE630015D09A /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCB0F2372802EE650015D09A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCB0F2402802EE650015D09A /* iOS13_UiKit_cryptoTrackerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCB0F2412802EE650015D09A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCB0F24A2802EE650015D09A /* iOS13_UiKit_cryptoTrackerUITests.swift in Sources */,
+				DCB0F24C2802EE650015D09A /* iOS13_UiKit_cryptoTrackerUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DCB0F23D2802EE650015D09A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DCB0F2242802EE630015D09A /* iOS13-UiKit-cryptoTracker */;
+			targetProxy = DCB0F23C2802EE650015D09A /* PBXContainerItemProxy */;
+		};
+		DCB0F2472802EE650015D09A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DCB0F2242802EE630015D09A /* iOS13-UiKit-cryptoTracker */;
+			targetProxy = DCB0F2462802EE650015D09A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DCB0F22E2802EE630015D09A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DCB0F22F2802EE630015D09A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DCB0F2332802EE650015D09A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DCB0F2342802EE650015D09A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DCB0F24D2802EE650015D09A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DCB0F24E2802EE650015D09A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DCB0F2502802EE650015D09A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9786TSAYF2;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS13-UiKit-cryptoTracker/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Kamonpan.coinmarket.iOS13-UiKit-cryptoTracker";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DCB0F2512802EE650015D09A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9786TSAYF2;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS13-UiKit-cryptoTracker/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Kamonpan.coinmarket.iOS13-UiKit-cryptoTracker";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DCB0F2532802EE650015D09A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9786TSAYF2;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Kamonpan.coinmarket.iOS13-UiKit-cryptoTrackerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOS13-UiKit-cryptoTracker.app/iOS13-UiKit-cryptoTracker";
+			};
+			name = Debug;
+		};
+		DCB0F2542802EE650015D09A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9786TSAYF2;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Kamonpan.coinmarket.iOS13-UiKit-cryptoTrackerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOS13-UiKit-cryptoTracker.app/iOS13-UiKit-cryptoTracker";
+			};
+			name = Release;
+		};
+		DCB0F2562802EE650015D09A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9786TSAYF2;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Kamonpan.coinmarket.iOS13-UiKit-cryptoTrackerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "iOS13-UiKit-cryptoTracker";
+			};
+			name = Debug;
+		};
+		DCB0F2572802EE650015D09A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9786TSAYF2;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Kamonpan.coinmarket.iOS13-UiKit-cryptoTrackerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "iOS13-UiKit-cryptoTracker";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DCB0F2202802EE630015D09A /* Build configuration list for PBXProject "iOS13-UiKit-cryptoTracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCB0F24D2802EE650015D09A /* Debug */,
+				DCB0F24E2802EE650015D09A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DCB0F24F2802EE650015D09A /* Build configuration list for PBXNativeTarget "iOS13-UiKit-cryptoTracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCB0F2502802EE650015D09A /* Debug */,
+				DCB0F2512802EE650015D09A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DCB0F2522802EE650015D09A /* Build configuration list for PBXNativeTarget "iOS13-UiKit-cryptoTrackerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCB0F2532802EE650015D09A /* Debug */,
+				DCB0F2542802EE650015D09A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DCB0F2552802EE650015D09A /* Build configuration list for PBXNativeTarget "iOS13-UiKit-cryptoTrackerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCB0F2562802EE650015D09A /* Debug */,
+				DCB0F2572802EE650015D09A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DCB0F21D2802EE630015D09A /* Project object */;
+}
