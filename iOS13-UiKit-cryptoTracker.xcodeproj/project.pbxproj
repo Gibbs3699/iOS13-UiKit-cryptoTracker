@@ -16,6 +16,7 @@
 		DCB0F2402802EE650015D09A /* iOS13_UiKit_cryptoTrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCB0F23F2802EE650015D09A /* iOS13_UiKit_cryptoTrackerTests.swift */; };
 		DCB0F24A2802EE650015D09A /* iOS13_UiKit_cryptoTrackerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCB0F2492802EE650015D09A /* iOS13_UiKit_cryptoTrackerUITests.swift */; };
 		DCB0F24C2802EE650015D09A /* iOS13_UiKit_cryptoTrackerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCB0F24B2802EE650015D09A /* iOS13_UiKit_cryptoTrackerUITestsLaunchTests.swift */; };
+		DCB0F2592802EED50015D09A /* APICaller.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCB0F2582802EED50015D09A /* APICaller.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		DCB0F2452802EE650015D09A /* iOS13-UiKit-cryptoTrackerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iOS13-UiKit-cryptoTrackerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DCB0F2492802EE650015D09A /* iOS13_UiKit_cryptoTrackerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS13_UiKit_cryptoTrackerUITests.swift; sourceTree = "<group>"; };
 		DCB0F24B2802EE650015D09A /* iOS13_UiKit_cryptoTrackerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS13_UiKit_cryptoTrackerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		DCB0F2582802EED50015D09A /* APICaller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APICaller.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				DCB0F2312802EE650015D09A /* Assets.xcassets */,
 				DCB0F2332802EE650015D09A /* LaunchScreen.storyboard */,
 				DCB0F2362802EE650015D09A /* Info.plist */,
+				DCB0F2582802EED50015D09A /* APICaller.swift */,
 			);
 			path = "iOS13-UiKit-cryptoTracker";
 			sourceTree = "<group>";
@@ -261,6 +264,7 @@
 				DCB0F22D2802EE630015D09A /* ViewController.swift in Sources */,
 				DCB0F2292802EE630015D09A /* AppDelegate.swift in Sources */,
 				DCB0F22B2802EE630015D09A /* SceneDelegate.swift in Sources */,
+				DCB0F2592802EED50015D09A /* APICaller.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -445,6 +449,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -473,6 +478,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
