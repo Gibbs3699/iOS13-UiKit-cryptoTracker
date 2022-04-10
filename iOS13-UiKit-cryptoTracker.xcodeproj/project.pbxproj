@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DCA2D2C72802FBFA0047FB7E /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA2D2C62802FBFA0047FB7E /* Models.swift */; };
 		DCB0F2292802EE630015D09A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCB0F2282802EE630015D09A /* AppDelegate.swift */; };
 		DCB0F22B2802EE630015D09A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCB0F22A2802EE630015D09A /* SceneDelegate.swift */; };
 		DCB0F22D2802EE630015D09A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCB0F22C2802EE630015D09A /* ViewController.swift */; };
@@ -17,6 +18,7 @@
 		DCB0F24A2802EE650015D09A /* iOS13_UiKit_cryptoTrackerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCB0F2492802EE650015D09A /* iOS13_UiKit_cryptoTrackerUITests.swift */; };
 		DCB0F24C2802EE650015D09A /* iOS13_UiKit_cryptoTrackerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCB0F24B2802EE650015D09A /* iOS13_UiKit_cryptoTrackerUITestsLaunchTests.swift */; };
 		DCB0F2592802EED50015D09A /* APICaller.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCB0F2582802EED50015D09A /* APICaller.swift */; };
+		DCB0F25B2802F96C0015D09A /* CryptoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCB0F25A2802F96B0015D09A /* CryptoTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DCA2D2C62802FBFA0047FB7E /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
 		DCB0F2252802EE630015D09A /* iOS13-UiKit-cryptoTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS13-UiKit-cryptoTracker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DCB0F2282802EE630015D09A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DCB0F22A2802EE630015D09A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -51,6 +54,7 @@
 		DCB0F2492802EE650015D09A /* iOS13_UiKit_cryptoTrackerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS13_UiKit_cryptoTrackerUITests.swift; sourceTree = "<group>"; };
 		DCB0F24B2802EE650015D09A /* iOS13_UiKit_cryptoTrackerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS13_UiKit_cryptoTrackerUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		DCB0F2582802EED50015D09A /* APICaller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APICaller.swift; sourceTree = "<group>"; };
+		DCB0F25A2802F96B0015D09A /* CryptoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,11 +108,13 @@
 				DCB0F2282802EE630015D09A /* AppDelegate.swift */,
 				DCB0F22A2802EE630015D09A /* SceneDelegate.swift */,
 				DCB0F22C2802EE630015D09A /* ViewController.swift */,
+				DCB0F25A2802F96B0015D09A /* CryptoTableViewCell.swift */,
+				DCB0F2582802EED50015D09A /* APICaller.swift */,
 				DCB0F22E2802EE630015D09A /* Main.storyboard */,
 				DCB0F2312802EE650015D09A /* Assets.xcassets */,
 				DCB0F2332802EE650015D09A /* LaunchScreen.storyboard */,
 				DCB0F2362802EE650015D09A /* Info.plist */,
-				DCB0F2582802EED50015D09A /* APICaller.swift */,
+				DCA2D2C62802FBFA0047FB7E /* Models.swift */,
 			);
 			path = "iOS13-UiKit-cryptoTracker";
 			sourceTree = "<group>";
@@ -264,6 +270,8 @@
 				DCB0F22D2802EE630015D09A /* ViewController.swift in Sources */,
 				DCB0F2292802EE630015D09A /* AppDelegate.swift in Sources */,
 				DCB0F22B2802EE630015D09A /* SceneDelegate.swift in Sources */,
+				DCA2D2C72802FBFA0047FB7E /* Models.swift in Sources */,
+				DCB0F25B2802F96C0015D09A /* CryptoTableViewCell.swift in Sources */,
 				DCB0F2592802EED50015D09A /* APICaller.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
